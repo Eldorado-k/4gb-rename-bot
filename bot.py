@@ -49,17 +49,17 @@ class Bot(Client):
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, Config.PORT).start()
-        logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
+        logging.info(f"{me.first_name} ✅✅ a démarré avec succès  ✅✅")
 
         for id in Config.ADMIN:
             try:
-                await self.send_message(id, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
+                await self.send_message(id, f"**__{me.first_name}  A démarré.....✨️__**")
             except:
                 pass
 
         if Config.LOG_CHANNEL:
             try:
-                curr = datetime.now(timezone("Asia/Kolkata"))
+                curr = datetime.now(timezone("Africa/Lome"))
                 date = curr.strftime('%d %B, %Y')
                 time = curr.strftime('%I:%M:%S %p')
                 await self.send_message(Config.LOG_CHANNEL, f"**__{me.mention} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ !!**\n\n📅 Dᴀᴛᴇ : `{date}`\n⏰ Tɪᴍᴇ : `{time}`\n🌐 Tɪᴍᴇᴢᴏɴᴇ : `Asia/Kolkata`\n\n🉐 Vᴇʀsɪᴏɴ : `v{__version__} (Layer {layer})`</b>")
