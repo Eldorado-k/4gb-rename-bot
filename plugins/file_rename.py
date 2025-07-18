@@ -24,7 +24,7 @@ app = Client("test", api_id=Config.STRING_API_ID,
 @Client.on_callback_query(filters.regex('rename'))
 async def rename(bot, update):
     await update.message.delete()
-    await update.message.reply_text("__ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ..__",
+    await update.message.reply_text("__Veuillez entrer le nouveau nom du fichier..__",
                                     reply_to_message_id=update.message.reply_to_message.id,
                                     reply_markup=ForceReply(True))
 
@@ -62,7 +62,7 @@ async def refunc(client, message):
 
         # Use a single call to reply with both text and inline keyboard
         await message.reply(
-            text=f"**Sᴇʟᴇᴄᴛ Tʜᴇ Oᴜᴛᴩᴜᴛ Fɪʟᴇ Tyᴩᴇ**\n**• Fɪʟᴇ Nᴀᴍᴇ :-**  `{new_name}`",
+            text=f"**Veuillez choisir le format de sortie de votre fichier**\n\n**Voici le nom que tu as donné :-**  `{new_name}`",
             reply_to_message_id=file.id,
             reply_markup=InlineKeyboardMarkup(button)
         )
@@ -88,12 +88,12 @@ async def doc(bot, update):
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
 
     except Exception as e:
-        return await update.message.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @Urr_Sanjii\nError: {e}")
+        return await update.message.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @ZeeXDevBot\nError: {e}")
 
     file_path = f"downloads/{new_filename}"
     file = update.message.reply_to_message
 
-    ms = await update.message.edit("Tʀyɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅɪɴɢ")
+    ms = await update.message.edit("Téléchargement en cours")
     try:
         path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("\n⚠️ __**Please wait...**__\n\n❄️ **Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
     except Exception as e:
@@ -123,7 +123,7 @@ async def doc(bot, update):
                 pass
         await ms.edit("**Metadata added to the file successfully ✅**\n\n⚠️ __**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
     else:
-        await ms.edit("⚠️  __**Please wait...**__\n\n\n**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
+        await ms.edit("⚠️  __**Please wait...**__\n\n\n**Televersement en cours....**")
 
     duration = 0
     try:
@@ -208,7 +208,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Yo attend...**__\n\n🌨️ **je suis entrain d'envoyer le fichier....**", ms, time.time()))
 
                 from_chat = filw.chat.id
                 mg_id = filw.id
