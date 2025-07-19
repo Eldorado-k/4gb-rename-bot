@@ -21,11 +21,11 @@ async def start(client, message):
     # Liste des stickers et messages intermédiaires
     sequence = [
         {"type": "message", "text": "✨ Sᴀʟᴜᴛ. Jᴇ sᴜɪs Lᴜғғʏ. Lᴇ ᴄʜᴇғ ᴅᴇ ʟ'éǫᴜɪᴘᴀɢᴇ ᴀᴜ ᴄʜᴀᴘᴇᴀᴜ ᴅᴇ ᴘᴀɪʟʟᴇ😁...."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"},  # ID du 1er sticker
+        {"type": "sticker", "id": "CAACAgIAAxkBAAEO9w1oe8Cwm_KPnL8l5aTAFuCbCjzYlgAClX0AAmlqKEpX1IQazph2xDYE"},  # ID du 1er sticker
         {"type": "message", "text": " Mᴏɴ ʀêᴠᴇ à ᴍᴏɪ, ᴄ'ᴇsᴛ ᴅᴇ ᴛʀᴏᴜᴠᴇʀ ʟᴇ Oɴᴇ Pɪᴇᴄᴇ ǫᴜᴇʟ ǫᴜ'ᴇɴ sᴏɪᴛ ʟᴇ Pʀɪx💥 ..."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"},  # ID du 2ème sticker
+        {"type": "sticker", "id": "CAACAgIAAxkBAAEO9xFoe8ET_JJyGCUi4Di8ElZYOFfvEAAC9W4AAp5wIUpwdmHRU019RzYE"},  # ID du 2ème sticker
         {"type": "message", "text": " Eᴛ ᴊᴇ ᴅᴇᴠɪᴇɴᴅʀᴀɪ ʟᴇ Rᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs ..."},
-        {"type": "sticker", "id": "CAACAgQAAxkBAAI3VWhpJkh1GJkxjq7ciOKcTHlAQ28BAALkFQACfqTJUVt-EzCZ0Ol6HgQ"}   # ID du 3ème sticker
+        {"type": "sticker", "id": "CAACAgIAAxkBAAEO9xRoe8E1-7RsBFNk8XIrDaY6rgL7pgAC-3MAAonyIUp7NiWYSps57jYE"}   # ID du 3ème sticker
     ]
     
     # Envoyer et supprimer les éléments un par un
@@ -41,11 +41,11 @@ async def start(client, message):
     
     # Envoyer le vrai message de démarrage après la séquence
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('⛅ Mɪsᴇs à Jᴏᴜʀ', url='https://t.me/BotZFlix'),
-        InlineKeyboardButton('🌨️ Aɪᴅᴇ', url='https://t.me/BTZF_CHAT')
+        InlineKeyboardButton('Mɪsᴇs à Jᴏᴜʀ', url='https://t.me/ZeeXDev'),
+        InlineKeyboardButton('Aɪᴅᴇ', url='https://t.me/BTZF_CHAT')
     ], [
-        InlineKeyboardButton('❄️ À Pʀᴏᴘᴏs', callback_data='about'),
-        InlineKeyboardButton('❗ Aɪᴅᴇ', callback_data='help')
+        InlineKeyboardButton('À Pʀᴏᴘᴏs', callback_data='about'),
+        InlineKeyboardButton('Aɪᴅᴇ', callback_data='help')
     ]])
     
     if Config.START_PIC:
