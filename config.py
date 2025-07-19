@@ -43,11 +43,11 @@ class Txt(object):
 
 Lᴀ ғᴀçᴏɴ ᴅᴏɴᴛ ᴊᴇ ᴍᴇ sᴀᴄʀɪғɪᴇ ᴘᴏᴜʀ ᴍᴏɴ éǫᴜɪᴘᴀɢᴇ ⚓, Jᴇ ғᴇʀᴀɪ ᴅᴇ ᴍêᴍᴇ ᴘᴏᴜʀ ᴛᴇs ғɪᴄʜɪᴇʀs 📂. Sᴏɪᴛ ᴇɴ sûʀ. Mêᴍᴇ sɪ ᴍᴏɴ ᴇsᴛᴏᴍᴀᴄ ғᴀɪᴛ ᴅᴇs ʙʀᴜɪᴛs ᴅᴇ ᴍᴏᴛᴇᴜʀ, sᴀᴄʜᴇᴢ Qᴜᴇ, 
 
-Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.</b>\n\nCréé par ©<a href='t.me/BotZFlix>😜 BotZFlix</a>"""
+Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.</b>\n\nCréé par ©<a href='t.me/ZeeXDev'>😜 Zee-X-Dev</a>"""
 
     ABOUT_TXT = """<b>Bot ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃Mon Nom : {}
+║┣⪼📃Mon Nom : [Luffy] File Renamer Bot
 ║┣⪼👼Créateur : <a href='t.me/ZeeXDevBot>🇰ιηg¢єу</a>
 ║┣⪼🤖Mise à Jour : <a href='t.me/ZeeXDev'>BᴏᴛZFʟɪx</a>
 ║┣⪼📡Hébergé Sur: Super Rapide
