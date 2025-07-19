@@ -22,7 +22,7 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://vault.pictures/p/e24f06f123504ba68945c3646f9943c2")
+    START_PIC = os.environ.get("START_PIC", "https://ibb.co/215DfdVj")
     ADMIN = [int(admin) if id_pattern.search(
         admin) else admin for admin in os.environ.get('ADMIN', '7083284156 8140299716').split()]  # ⚠️ Requis
     
@@ -47,7 +47,7 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 
     ABOUT_TXT = """<b>Bot ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃Mon Nom : [Luffy] File Renamer Bot
+║┣⪼📃Mon Nom : {}
 ║┣⪼👼Créateur : <a href='t.me/ZeeXDevBot'>🇰ιηg¢єу</a>
 ║┣⪼🤖Mise à Jour : <a href='t.me/ZeeXDev'>BᴏᴛZFʟɪx</a>
 ║┣⪼📡Hébergé Sur: <a href='koyeb.com'>Koyeb</a>
