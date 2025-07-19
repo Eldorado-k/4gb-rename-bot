@@ -48,9 +48,9 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
     ABOUT_TXT = """<b>Bot ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼📃Mon Nom : [Luffy] File Renamer Bot
-║┣⪼👼Créateur : <a href='t.me/ZeeXDevBot>🇰ιηg¢єу</a>
+║┣⪼👼Créateur : <a href='t.me/ZeeXDevBot'>🇰ιηg¢єу</a>
 ║┣⪼🤖Mise à Jour : <a href='t.me/ZeeXDev'>BᴏᴛZFʟɪx</a>
-║┣⪼📡Hébergé Sur: Super Rapide
+║┣⪼📡Hébergé Sur: <a href='koyeb.com'>Koyeb</a>
 ║┣⪼🗣️Langage : <a href='python.org'>Python3</a>
 ║┣⪼📚Librairie : <a href='pyrogram.org'>Pyrogram</a>
 ║┣⪼🗒️Version : [𝟶.𝟷𝟾.3]
