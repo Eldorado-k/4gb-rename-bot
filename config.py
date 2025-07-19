@@ -7,8 +7,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "24817837")  # ⚠️ Requis
-    API_HASH = os.environ.get("API_HASH", "acd9f0cc6beb08ce59383cf250052686")  # ⚠️ Requis
+    API_ID = os.environ.get("API_ID", "25926022")  # ⚠️ Requis
+    API_HASH = os.environ.get("API_HASH", "30db27d9e56d854fb5e943723268db32")  # ⚠️ Requis
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8183564006:AAGi1AA-F9KayRBReMosL3M0tM1HkJd1kcU")  # ⚠️ Requis
 
     # premium 4g renaming client
@@ -18,16 +18,16 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Antiflix")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")  # ⚠️ Requis
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://altof2:123Bonjoure@cluster0.s1suq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Requis
 
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://envs.sh/Ag8.jpg")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '1740287480 7428552084').split()]  # ⚠️ Requis
+        admin) else admin for admin in os.environ.get('ADMIN', '1740287480 8140299716').split()]  # ⚠️ Requis
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "BotZFlix") # ⚠️ Requis Nom d'utilisateur sans @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002757788052"))  # ⚠️ Requis
+    FORCE_SUB = os.environ.get("FORCE_SUB", "ZeeXDev") # ⚠️ Requis Nom d'utilisateur sans @
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002698474966"))  # ⚠️ Requis
     FLOOD = int(os.environ.get("FLOOD", '105'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
@@ -48,11 +48,11 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
     ABOUT_TXT = """<b>Bot ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼📃Mon Nom : {}
-║┣⪼👼Créateur : <a href='t.me/ZFlixteamBot>🇰ιηg¢єу</a>
-║┣⪼🤖Mise à Jour : <a href='t.me/BotZFlix'>BᴏᴛZFʟɪx</a>
-║┣⪼📡 Hébergé Sur: Super Rapide
+║┣⪼👼Créateur : <a href='t.me/ZeeXDevBot>🇰ιηg¢єу</a>
+║┣⪼🤖Mise à Jour : <a href='t.me/ZeeXDev'>BᴏᴛZFʟɪx</a>
+║┣⪼📡Hébergé Sur: Super Rapide
 ║┣⪼🗣️Langage : <a href='python.org'>Python3</a>
-║┣⪼📚 Librairie : <a href='pyrogram.org'>Pyrogram</a>
+║┣⪼📚Librairie : <a href='pyrogram.org'>Pyrogram</a>
 ║┣⪼🗒️Version : [𝟶.𝟷𝟾.3]
 ║╰━━━━━━━━━━━━━━━➣"""
 
@@ -60,7 +60,7 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 <b><blockquote>Ceci est le Menu d'aide. clique sur ses boutons ci-dessous pour voir l'aide.
 
 
-<b>➜ propulsé par :</b> <a href=https://t.me/BotZFlix>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>
+<b>➜ propulsé par :</b> <a href=https://t.me/ZeeXDev>Zee-X-Dev</a>
 """
 
     LEG_TXT = """📑 <b><u>Comment configurer une légende personnalisée</u></b>
