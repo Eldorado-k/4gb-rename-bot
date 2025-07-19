@@ -89,12 +89,12 @@ Squid Game</code>
 En écrivant le nom, Un bot va vous l'envoyé. il faut et seulement écrire le nom du film.
 
 
-<a href='t.me/ZFlixTeam'>Rejoindre le groupe</a>
-<a href='t.me/ZFlixTeam'>Rejoindre le groupe</a>
-<a href='t.me/ZFlixTeam'>Rejoindre le groupe</a>
+<a href='t.me/ZeeXClub'>Rejoindre le groupe</a>
+<a href='t.me/ZeeXClub'>Rejoindre le groupe</a>
+<a href='t.me/ZeeXClub'>Rejoindre le groupe</a>
 
 
-pour tout Problème contactez moi : <a href='t.me/ZFlixTeamBot'>@◡̈⃝ㅤ🇰ιηg¢єу</a></b>"""
+pour tout Problème contactez moi : <a href='t.me/ZeeXDevBot'>@Zee-X-Dev</a></b>"""
 
     DEV_TXT = """ɪᴄɪ ᴄ'ᴇsᴛ Kɪɴɢᴄᴇʏ 😌. ᴜɴ ᴘᴇᴛɪᴛ ᴅéᴠᴇʟᴏᴘᴘᴇᴜʀs ᴄᴏᴍᴍᴇɴçᴀɴᴛ à ᴀᴘᴘʀᴇɴᴅʀᴇ ʟᴀ ᴘʀᴏɢʀᴀᴍᴍᴀᴛɪᴏɴ ᴇɴ 🐍Pʏᴛʜᴏɴ ᴇᴛ HTML.
     
@@ -123,4 +123,4 @@ pour tout Problème contactez moi : <a href='t.me/ZFlixTeamBot'>@◡̈⃝ㅤ🇰
  ➜ 🚀 Vɪᴛᴇssᴇ : {3}/s
  ➜ ⏰ Rᴇsᴛᴀɴᴛ : {4}
 ╚━━━━━━━━━━━━━━━╝
-<blockquote><a href='t.me/ZFlixTeam'>𒄆  ZFʟɪx-Tᴇᴀᴍ</a></blockquote></b>"""
+<blockquote><a href='t.me/ZeeXClub'>𒄆  ZFʟɪx-Tᴇᴀᴍ</a></blockquote></b>"""
