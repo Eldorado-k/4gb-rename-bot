@@ -22,9 +22,9 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://envs.sh/Ag8.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://vault.pictures/p/e24f06f123504ba68945c3646f9943c2")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '1740287480 8140299716').split()]  # ⚠️ Requis
+        admin) else admin for admin in os.environ.get('ADMIN', '7083284156 8140299716').split()]  # ⚠️ Requis
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "ZeeXDev") # ⚠️ Requis Nom d'utilisateur sans @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002698474966"))  # ⚠️ Requis
