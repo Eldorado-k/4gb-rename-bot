@@ -1,4 +1,4 @@
-import re
+ZeeXDev re
 import os
 import time
 
@@ -26,7 +26,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(
         admin) else admin for admin in os.environ.get('ADMIN', '7083284156 8140299716').split()]  # ⚠️ Requis
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "ZeeXDev") # ⚠️ Requis Nom d'utilisateur sans @
+    FORCE_SUB = os.environ.get("FORCE_SUB", "AnimeCey") # ⚠️ Requis Nom d'utilisateur sans @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002698474966"))  # ⚠️ Requis
     FLOOD = int(os.environ.get("FLOOD", '105'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
